@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
+#include <math.h>
 using namespace std;
 int main()
 {
@@ -16,7 +17,7 @@ int main()
 				pr = false;
 		}
 		if (pr == true)
-			cout << i << k++;
+			cout << i and k++;
 		i++;
 	}
 	cout << "Prostykh chisel:" << k;
