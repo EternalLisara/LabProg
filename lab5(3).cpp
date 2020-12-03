@@ -16,7 +16,7 @@ int main()
 				pr = false;
 		}
 		if (pr == true)
-			cout << i and k++;
+			cout << i << k++;
 		i++;
 	}
 	cout << "Prostykh chisel:" << k;
