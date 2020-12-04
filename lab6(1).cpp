@@ -9,7 +9,7 @@ int main()
   for (int i=0;i<20;i++)
   {  
     rand_num[i]=rand()%21 - 10;
-    cout << "Massiv: " << "[" << i+1<<"] = "<< rand_num[i]<<endl;
+    cout << "Массив: " << "[" << i+1<<"] = "<< rand_num[i]<<endl;
     if (rand_num[i] >= 0)
     cout << "Положительные числа: " << rand_num[i];
     else 

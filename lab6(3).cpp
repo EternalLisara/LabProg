@@ -9,7 +9,7 @@ int main()
     int i;
     for (i = 0; i < 20; i++) {
         Massiv[i] = 0.01 * (rand() % 1001);
-        cout << "Massiv [" << i + 1 << "] = " << Massiv[i] << endl;
+        cout << "Массив [" << i + 1 << "] = " << Massiv[i] << endl;
     }
     cout << "Элементы массива, которые больше своих соседей: ";
     for (i = 1; i < 19; i++) {

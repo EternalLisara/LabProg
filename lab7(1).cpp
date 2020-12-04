@@ -6,7 +6,7 @@ int main()
 {
     float y, a, x, b, c, h, xEnd, x1;
     int i, j;
-    cout << "Enter x, xEnd, a, b, c, h ";
+    cout << "Ввести x, xEnd, a, b, c, h ";
     cin >> x >> xEnd >> a >> b >> c >> h;
     x1 = x;
     while ((x <= xEnd)) {
