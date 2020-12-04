@@ -11,15 +11,17 @@ int main()
 	cin >> n;
 	while (i<=n) {
 		bool pr = true;
-		for (int j = 2; j <= sqrt(i); j++)
+		for (int j = 2; j * j <= i; j++)
 		{
 			if (i % j == 0)
 				pr = false;
 		}
-		if (pr == true)
-			cout << i and k++;
+		if (pr == true) {
+			cout << i;
+			k++;
+		}
 		i++;
 	}
-	cout << "Prostykh chisel:" << k;
+	cout << "Простых чисел:" << k;
 	return 0;
 }

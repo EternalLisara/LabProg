@@ -11,11 +11,11 @@ int main()
         Massiv[i] = 0.01 * (rand() % 1001);
         cout << "Massiv [" << i + 1 << "] = " << Massiv[i] << endl;
     }
-    cout << "Elementi mssiva bolshe svoikh sosedey ";
+    cout << "Элементы массива, которые больше своих соседей: ";
     for (i = 1; i < 19; i++) {
         if (Massiv[i] > Massiv[i - 1])
            if(Massiv[i] > Massiv[i+1])
-              cout << "Elementi massiva [" << i << "]" << Massiv[i] << endl;
+              cout << "Элементы массива [" << i << "]" << Massiv[i] << endl;
     }
     return 0;
 }

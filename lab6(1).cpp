@@ -11,9 +11,9 @@ int main()
     rand_num[i]=rand()%21 - 10;
     cout << "Massiv: " << "[" << i+1<<"] = "<< rand_num[i]<<endl;
     if (rand_num[i] >= 0)
-    cout << "Polozjitel'nie chisla: " << rand_num[i];
+    cout << "Положительные числа: " << rand_num[i];
     else 
-    cout << "Otricatel'nie chisla: " << rand_num[i];
+    cout << "Отрицательные числа: " << rand_num[i];
   }
   return 0;
 }

@@ -12,7 +12,7 @@ int main()
   for (i=1;i<=n;i++)
   {
     C[i] = (factorial(n)/(factorial(i)*factorial(n-i)));
-    cout << "Massiv: " << C[i];
+    cout << "Массив: " << C[i];
   }
   return 0;
 }
