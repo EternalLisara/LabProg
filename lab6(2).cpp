@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+#include "factorial.h"
 using namespace std;
 int main()
 {
